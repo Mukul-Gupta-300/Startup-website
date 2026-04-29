@@ -4736,7 +4736,6 @@ body,
   transition: all 0.35s ease-in-out;
 }
 
-.our-story-area .story-items .single-item:first-child .item span,
 .our-story-area .story-items .single-item .item:hover span {
   background: linear-gradient(90deg, rgba(30,85,189,1) 0%, rgba(67,126,235,1) 100%);
   color: #ffffff;
@@ -4752,11 +4751,11 @@ body,
 
 .our-story-area .story-items::after {
   position: absolute;
-  left: 0;
+  left: 12.5%;
   top: 25px;
   content: "";
   height: 1px;
-  width: 100%;
+  width: 75%;
   border-bottom: 2px dashed #e7e7e7;
   z-index: -1;
 }
